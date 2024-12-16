@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz HTML et CSS</title>
+    <link rel="stylesheet" href="../stylequizz.css" />
+    <script src="../quizz.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">
+            <a href="index.html">
+              <img src="../images/ahmad.png" alt="Logo du site" />
+            </a>
+          </li>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="quizz.html" class="active">quizz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form id="quizForm">
+        <section>
+          <h2>1. Que signifie HTML ?</h2>
+          <label>
+            <input type="radio" name="question1" value="a" /> HyperText Machine
+            Language </label
+          ><br />
+          <label>
+            <input type="radio" name="question1" value="b" /> HyperText Markup
+            Language </label
+          ><br />
+          <label>
+            <input type="radio" name="question1" value="c" /> HyperTransfer
+            Markup Language </label
+          ><br />
+        </section>
+
+        <section>
+          <h2>
+            2. Quelle balise est utilisée pour insérer une image en HTML ?
+          </h2>
+          <label>
+            <input type="radio" name="question2" value="a" />
+            &lt;img&gt; </label
+          ><br />
+          <label>
+            <input type="radio" name="question2" value="b" />
+            &lt;image&gt; </label
+          ><br />
+          <label>
+            <input type="radio" name="question2" value="c" />
+            &lt;picture&gt; </label
+          ><br />
+        </section>
+
+        <section>
+          <h2>
+            3. Choisissez une propriété CSS utilisée pour changer la couleur de
+            fond :
+          </h2>
+          <select name="question3">
+            <option value="">Sélectionnez une option</option>
+            <option value="a">color</option>
+            <option value="b">background-color</option>
+            <option value="c">font-color</option>
+          </select>
+        </section>
+
+        <section>
+          <h2>
+            4. Quel attribut est obligatoire dans une balise &lt;a&gt; pour
+            créer un lien ?
+          </h2>
+          <label><input type="radio" name="question4" value="a" /> href </label
+          ><br />
+          <label
+            ><input type="radio" name="question4" value="b" /> target </label
+          ><br />
+          <label><input type="radio" name="question4" value="c" /> link </label
+          ><br />
+        </section>
+
+        <section>
+          <h2>
+            5. Quel est le résultat de cette règle CSS ?
+            <code>font-size: 16px;</code>
+          </h2>
+          <textarea
+            name="question5"
+            rows="3"
+            placeholder="Expliquez ici..."
+          ></textarea>
+        </section>
+
+        <button type="submit">Soumettre</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy;Tous droits réservés ahmad ben abdallah.</p>
+    </footer>
+  </body>
+</html>
